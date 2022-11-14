@@ -1,0 +1,14 @@
+1666644207835	geckodriver	INFO	Listening on 127.0.0.1:50700
+1666644210816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilebcwYen"
+1666644211389	Marionette	INFO	Marionette enabled
+1666644211397	Marionette	INFO	Listening on port 50710
+Read port: 50710
+WebDriver BiDi listening on ws://127.0.0.1:50701
+1666644211616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilebcwYen\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50701/devtools/browser/0bc15240-4555-4541-bb7a-c39ec3b354b5
+JavaScript warning: https://www.amazon.fr/ line 1922 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+1666644222836	Marionette	INFO	Stopped listening on port 50710
+[Parent 9660, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"

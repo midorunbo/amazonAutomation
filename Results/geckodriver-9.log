@@ -1,0 +1,13 @@
+1666562653717	geckodriver	INFO	Listening on 127.0.0.1:56595
+1666562656709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56596" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilexnTr7Z"
+1666562660812	Marionette	INFO	Marionette enabled
+1666562660853	Marionette	INFO	Listening on port 56609
+Read port: 56609
+WebDriver BiDi listening on ws://127.0.0.1:56596
+1666562661971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilexnTr7Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56596/devtools/browser/f1167401-94fc-4d80-a910-b76950f8c321
+JavaScript warning: https://www.amazon.fr/ line 1948 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/71C1-UTDgHL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666562704664	Marionette	INFO	Stopped listening on port 56609
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 905: AbortError: IOUtils: Shutting down and refusing additional I/O tasks

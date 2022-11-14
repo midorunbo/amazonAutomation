@@ -1,0 +1,15 @@
+1666644446810	geckodriver	INFO	Listening on 127.0.0.1:51176
+1666644449802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51177" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilexRxxCX"
+1666644450703	Marionette	INFO	Marionette enabled
+1666644450710	Marionette	INFO	Listening on port 51188
+Read port: 51188
+WebDriver BiDi listening on ws://127.0.0.1:51177
+1666644450985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilexRxxCX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51177/devtools/browser/54390e63-763c-4236-9372-ce11d3589f60
+JavaScript warning: https://www.amazon.fr/ line 1996 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+1666644466728	Marionette	INFO	Stopped listening on port 51188
+[Parent 868, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 868, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

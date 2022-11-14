@@ -1,0 +1,11 @@
+1666562124557	geckodriver	INFO	Listening on 127.0.0.1:55808
+1666562128064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofileInwA77"
+1666562134213	Marionette	INFO	Marionette enabled
+1666562134236	Marionette	INFO	Listening on port 55828
+Read port: 55828
+WebDriver BiDi listening on ws://127.0.0.1:55809
+1666562135245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofileInwA77\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55809/devtools/browser/f38aaf11-5b51-4d38-830d-7dfbe083b544
+JavaScript warning: https://www.amazon.fr/ line 1929 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666562153370	Marionette	INFO	Stopped listening on port 55828

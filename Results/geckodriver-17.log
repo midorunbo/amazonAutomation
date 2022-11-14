@@ -1,0 +1,14 @@
+1666644938094	geckodriver	INFO	Listening on 127.0.0.1:51489
+1666644941043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51490" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilejxSdQu"
+1666644942305	Marionette	INFO	Marionette enabled
+1666644942311	Marionette	INFO	Listening on port 51499
+Read port: 51499
+WebDriver BiDi listening on ws://127.0.0.1:51490
+1666644943064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofilejxSdQu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51490/devtools/browser/12ba7e31-28d9-4134-a64f-19d9cfd76d7c
+JavaScript warning: https://www.amazon.fr/ line 1952 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+JavaScript warning: https://www.amazon.fr/Ethernet-40-Gbps-2000-MHz-Internet-Connecteur/dp/B0B24P6NYR/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=P0GRMQEBHGG5&keywords=rj45+cable&qid=1666644338&qu=eyJxc2MiOiI1LjM2IiwicXNhIjoiNS4wNCIsInFzcCI6IjQuMzYifQ%3D%3D&sprefix=rj45+cable%2Caps%2C321&sr=8-1-spons&psc=1 line 9215 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666644959057	Marionette	INFO	Stopped listening on port 51499
+!!! error running onStopped callback: TypeError: callback is not a function

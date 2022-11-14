@@ -1,0 +1,21 @@
+1666646951823	geckodriver	INFO	Listening on 127.0.0.1:52626
+1666646955108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofileVuC6wQ"
+1666646960015	Marionette	INFO	Marionette enabled
+1666646960045	Marionette	INFO	Listening on port 52640
+Read port: 52640
+WebDriver BiDi listening on ws://127.0.0.1:52627
+1666646961281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofileVuC6wQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52627/devtools/browser/44d7c652-d95a-42fe-87ec-8676a957858f
+JavaScript warning: https://www.amazon.fr/ line 1985 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+JavaScript warning: https://www.amazon.fr/Ethernet-40-Gbps-2000-MHz-Internet-Connecteur/dp/B0B24P6NYR/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=P0GRMQEBHGG5&keywords=rj45+cable&qid=1666644338&qu=eyJxc2MiOiI1LjM2IiwicXNhIjoiNS4wNCIsInFzcCI6IjQuMzYifQ%3D%3D&sprefix=rj45+cable%2Caps%2C321&sr=8-1-spons&psc=1 line 9174 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+JavaScript warning: https://www.amazon.fr/cart/add-to-cart/ref=dp_start-bbf_1_glance line 2690 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.fr/gp/cart/view.html?ref_=nav_cart line 3869 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+1666646994507	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.amazon.fr/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_fr&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.fr%2Fgp%2Fbuy%2Fsignin%2Fhandlers%2Fcontinue.html%3Fie%3DUTF8%26brandId%3D%26cartItemIds%3D%26eGCApp%3D%26hasWorkingJavascript%3D0%26isEGCOrder%3D0%26isFresh%3D%26oldCustomerId%3D0%26oldPurchaseId%3D%26preInitiateCustomerId%3D%26purchaseInProgress%3D%26ref_%3Dcart_signin_submit%26siteDesign%3D&pageId=amazon_checkout_fr&showRmrMe=0&siteState=isRegularCheckout.1%7CIMBMsgs.%7CisRedirect.1&suppressSignInRadioButtons=0 line 1485 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666646995914	Marionette	INFO	Stopped listening on port 52640
+[Parent 7260, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))

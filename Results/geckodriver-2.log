@@ -1,0 +1,12 @@
+1666556976625	geckodriver	INFO	Listening on 127.0.0.1:52371
+1666556979579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52372" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofileRDbKJ5"
+1666556980563	Marionette	INFO	Marionette enabled
+1666556980569	Marionette	INFO	Listening on port 52383
+Read port: 52383
+WebDriver BiDi listening on ws://127.0.0.1:52372
+1666556981729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofileRDbKJ5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52372/devtools/browser/2bbc27f0-06d3-4ace-b9f7-e4a980a96992
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1666559568299	Marionette	INFO	Stopped listening on port 52383
+!!! error running onStopped callback: TypeError: callback is not a function

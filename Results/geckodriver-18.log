@@ -1,0 +1,21 @@
+1666645266591	geckodriver	INFO	Listening on 127.0.0.1:51720
+1666645269530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofiled5VF6h"
+1666645270130	Marionette	INFO	Marionette enabled
+1666645270137	Marionette	INFO	Listening on port 51730
+Read port: 51730
+WebDriver BiDi listening on ws://127.0.0.1:51721
+1666645270302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofiled5VF6h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51721/devtools/browser/b64f2703-e967-4bb6-8d7b-1cc83e5c05c4
+JavaScript warning: https://www.amazon.fr/ line 2011 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+JavaScript warning: https://www.amazon.fr/Ethernet-40-Gbps-2000-MHz-Internet-Connecteur/dp/B0B24P6NYR/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=P0GRMQEBHGG5&keywords=rj45+cable&qid=1666644338&qu=eyJxc2MiOiI1LjM2IiwicXNhIjoiNS4wNCIsInFzcCI6IjQuMzYifQ%3D%3D&sprefix=rj45+cable%2Caps%2C321&sr=8-1-spons&psc=1 line 9046 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.fr."
+1666645286698	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.fr/cart/add-to-cart/ref=dp_start-bbf_1_glance line 2675 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666645287864	Marionette	INFO	Stopped listening on port 51730
+!!! error running onStopped callback: TypeError: callback is not a function

@@ -1,0 +1,12 @@
+1666560259437	geckodriver	INFO	Listening on 127.0.0.1:54208
+1666560262509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofile9MvZJC"
+1666560263077	Marionette	INFO	Marionette enabled
+1666560263085	Marionette	INFO	Listening on port 54218
+Read port: 54218
+WebDriver BiDi listening on ws://127.0.0.1:54209
+1666560263259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amina\\AppData\\Local\\Temp\\rust_mozprofile9MvZJC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54209/devtools/browser/84954e91-a158-48d2-bff3-3b6b3d8f22c8
+JavaScript warning: https://www.amazon.fr/ line 1953 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666560272553	Marionette	INFO	Stopped listening on port 54218
+[Parent 11168, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
